@@ -1,0 +1,25 @@
+.btn-primary{
+  margin: 1rem;
+  border-radius: 999px;
+  padding-block: 0.625rem;
+  padding-inline: 1.5rem;
+  cursor: pointer;
+  background: none;
+  border: 1px solid var(--brand-green);
+  color: var(--brand-green);
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.btn-secondary{
+  margin: 1rem;
+  border-radius: 999px;
+  padding-block: 0.625rem;
+  padding-inline: 1.5rem;
+  cursor: pointer;
+  background: var(--brand-green);
+  border: 1px solid var(--brand-green);
+  color: white;
+  font-weight: 700;
+  font-size: 14px;
+}

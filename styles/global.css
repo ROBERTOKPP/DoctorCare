@@ -1,0 +1,20 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --brand-green: #00856f;
+  --brand-green-light: #dce9e2;
+  --font-family: "DM Sans", sans-serif;
+  --font: 500 16px var(--font-family);
+}
+
+body {
+  font: var(--font);
+}
+
+a {
+  text-decoration: none;
+}

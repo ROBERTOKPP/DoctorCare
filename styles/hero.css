@@ -1,0 +1,19 @@
+#hero-section {
+  background-color: var(--brand-green-light);
+  header {
+    display: flex;
+    justify-content: space-between;
+    & nav {
+      display: flex;
+      gap: 2rem;
+      & a {
+        color: var(--brand-green);
+        padding: 1rem;
+      }
+      & a:hover {
+        padding-bottom: 14px;
+        border-bottom: 2px solid var(--brand-green);
+      }
+    }
+  }
+}
