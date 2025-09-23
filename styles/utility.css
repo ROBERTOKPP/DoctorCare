@@ -2,3 +2,28 @@
   width: 70rem;
   margin: auto;
 }
+
+.heat-text{
+  color: var(--brand-green);
+  font: var(--font-heat); 
+}
+
+.divider{
+  height: 50px;
+  border: 1px solid var(--brand-green);
+}
+
+.number{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  & :nth-child(1){
+    font: var(--number-primary);
+    color: var(--gray-headline);
+  }
+  & :nth-child(2){
+    font: var(--number-secondary);
+    color: var(--brand-green);
+  }
+
+}

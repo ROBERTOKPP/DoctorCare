@@ -1,5 +1,5 @@
 .btn-primary{
-  margin: 1rem;
+  text-transform: uppercase;
   border-radius: 999px;
   padding-block: 0.625rem;
   padding-inline: 1.5rem;
@@ -12,9 +12,12 @@
 }
 
 .btn-secondary{
-  margin: 1rem;
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  text-transform: uppercase;
   border-radius: 999px;
-  padding-block: 0.625rem;
+  padding-block: 1rem;
   padding-inline: 1.5rem;
   cursor: pointer;
   background: var(--brand-green);

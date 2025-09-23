@@ -1,19 +1,52 @@
 #hero-section {
   background-color: var(--brand-green-light);
-  header {
+  padding-bottom: 60px;
+  .menu {
     display: flex;
     justify-content: space-between;
+    padding-block: 1rem;
     & nav {
       display: flex;
-      gap: 2rem;
+      gap: 1rem;
+      
       & a {
         color: var(--brand-green);
-        padding: 1rem;
       }
       & a:hover {
-        padding-bottom: 14px;
-        border-bottom: 2px solid var(--brand-green);
+        padding-bottom: 1rem;
+        border-bottom: 1px solid var(--brand-green);
       }
     }
   }
+  
+  & > :nth-child(2){
+    display: flex;
+    gap: 2rem;
+    position: relative;
+    & > :nth-child(1){
+      display: flex;
+      gap: 1rem;
+      flex-direction: column;
+      justify-content: center;
+      & button{
+        width: 41.5%;
+      }
+    }
+     & > :nth-child(2){
+     padding-right: 2.75rem;
+    }
+  }
+  .div-numbers{
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #FFFAF1;
+    border: 1px solid  #DCE9E2;
+    bottom: -30%;
+    padding-block: 3.75rem;
+    padding-inline: 7.5rem;
+
+  }
 }
+
