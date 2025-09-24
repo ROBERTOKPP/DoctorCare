@@ -1,0 +1,26 @@
+#services{
+  padding-block: 17rem 10rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  text-align: center;
+
+  & h2{
+    max-width: 31rem;
+    margin-bottom: 4rem;
+  }
+
+  .cards-services{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2.5rem;
+    & .card{
+      text-align: start;
+      padding: 1.5rem;
+      border: 1px solid var(--brand-green-light);
+      & h3{
+        margin-block: 1rem;
+      }
+    }
+  }
+}

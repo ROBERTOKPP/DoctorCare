@@ -1,0 +1,19 @@
+#contact {
+  display: flex;
+  justify-content: space-between;
+  padding-block: 10rem;
+  & div {
+    max-width: 21rem;
+    & h2 {
+      padding-block: 2.5rem;
+    }
+    & p {
+      display: flex;
+      gap: .5rem;
+      margin-bottom: 1rem;
+    }
+    & .btn-secondary {
+      margin-block: 2.5rem;
+    }
+  }
+}

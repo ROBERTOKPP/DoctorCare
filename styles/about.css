@@ -1,0 +1,11 @@
+#about {
+  display: flex;
+  gap: 4.5rem;
+  padding-block: 10rem;
+  & div {
+    max-width: 36rem;
+    & h2 {
+      margin-block: 1.5rem;
+    }
+  }
+}
