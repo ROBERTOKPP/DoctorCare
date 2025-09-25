@@ -50,3 +50,48 @@
   }
 }
 
+@media (width < 62.5rem) {
+  #hero-section {
+    padding-bottom: 190px;
+  .menu {
+    & nav {
+      display: none;
+    }
+    & button{
+        display: none;
+      }
+  }
+  
+  & > :nth-child(2){
+    display: flex;
+    flex-direction: column;
+    gap: 3.75rem;
+    text-align: center;
+    padding-top: 2.5rem;
+    & > :nth-child(1){
+      & button{
+        width: 100%;
+        justify-content: center;
+      }
+    }
+     & > :nth-child(2){
+     padding-right: 0;
+     & img{
+      width: 100%;
+     }
+    }
+  }
+  .div-numbers{
+    width: 88%;
+    gap: 3.75rem;
+    display: flex;
+    flex-direction: column;
+    bottom: -46%;
+    padding-block: 2.5rem;
+    padding-inline: 0;
+    & .divider{
+      display: none;
+    }
+  }
+}
+}

@@ -9,3 +9,10 @@
     }
   }
 }
+
+@media (width < 62.5rem) {
+  #about {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}

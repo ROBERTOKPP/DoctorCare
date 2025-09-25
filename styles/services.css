@@ -1,26 +1,35 @@
-#services{
+#services {
   padding-block: 17rem 10rem;
   display: flex;
   flex-direction: column;
   gap: 1rem;
   text-align: center;
 
-  & h2{
+  & h2 {
     max-width: 31rem;
     margin-bottom: 4rem;
   }
 
-  .cards-services{
+  .cards-services {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 2.5rem;
-    & .card{
+    & .card {
       text-align: start;
       padding: 1.5rem;
       border: 1px solid var(--brand-green-light);
-      & h3{
+      & h3 {
         margin-block: 1rem;
       }
+    }
+  }
+}
+@media (width < 62.5rem) {
+  #services {
+    padding-block: 22rem 10rem;
+    .cards-services {
+      display: flex;
+      flex-direction: column;
     }
   }
 }
